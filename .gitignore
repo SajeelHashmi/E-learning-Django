@@ -1,0 +1,12 @@
+env/
+frontend/ilmghar/.vscode
+frontend/ilmghar/node_modules
+progress.txt
+**/migrations/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+ilmghar/Media/*
+ilmghar/test
+ilmghar/db.sqlite3
