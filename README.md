@@ -104,6 +104,3 @@ ffmpeg -i lectureVideo.mp4 -c:v h264 -c:a aac -hls_time 10 -hls_list_size 0 lect
 Remember to replace lectureVideo with the actual video name, lectureName with the lecture name, and lectureId with its ID.
 
 Thank you.
-
-These adjustments mainly involve consistency in naming conventions and slight improvements in sentence structure for clarity.
-
