@@ -1,14 +1,8 @@
 # Ilm Ghar
-Important to use the hls stream you must at this point manually run the ffmpeg command after uploading a lecture
-navigate to the media folder 
-go to lecture videos and run the command
- ffmpeg -i fileName.mp4 -c:v h264 -c:a aac -hls_time 10 -hls_list_size 0 lectureName_lectureId/output.m3u8
 
-## Prerequisites
+This is my semester project for the software engineering course. Ilm Ghar is an online education platform committed to providing the underprivileged with education in their native languages. It allows users to explore and filter courses, register accounts, enroll in courses to access lecture notes, assignments, forums, and enables instructors to manage their courses and more.
 
-- [Python](https://www.python.org/) (3.x recommended)
-- [Node.js](https://nodejs.org/) (for frontend development)
-- [npm](https://www.npmjs.com/) (Node.js package manager)
+The application is developed using the RESTful approach, with Django as the backend and Vue.js for the frontend.
 
 ## Backend Setup
 
@@ -21,7 +15,7 @@ go to lecture videos and run the command
 2. Navigate to the project folder:
 
     ```bash
-    cd your-repository
+    cd E-learning-Django
     ```
 
 3. Create a virtual environment:
@@ -44,19 +38,25 @@ go to lecture videos and run the command
         source venv/bin/activate
         ```
 
-5. Install Python dependencies:
+5. Navigate to the IlmGhar directory:
+
+    ```bash
+    cd IlmGhar
+    ```
+
+6. Install Python dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-6. Apply migrations:
+7. Apply migrations:
 
     ```bash
     python manage.py migrate
     ```
 
-7. Run the development server:
+8. Run the development server:
 
     ```bash
     python manage.py runserver
@@ -94,4 +94,16 @@ go to lecture videos and run the command
 
    The frontend development server should now be running at [http://localhost:3000/](http://localhost:3000/).
 
+## Important Note:
+
+Create a superuser and use the Django admin area to register instructors and create courses with them. Each course will have some lectures, and every lecture will include a video, notes, and an assignment. We are using HLS to serve the lectures; currently, you need to manually create the HLS segments. After uploading a lecture, navigate to the media directory and run the following command:
+
+```bash
+ffmpeg -i lectureVideo.mp4 -c:v h264 -c:a aac -hls_time 10 -hls_list_size 0 lectureName_lectureId/output.m3u8
+```
+Remember to replace lectureVideo with the actual video name, lectureName with the lecture name, and lectureId with its ID.
+
+Thank you.
+
+These adjustments mainly involve consistency in naming conventions and slight improvements in sentence structure for clarity.
 
