@@ -6,43 +6,43 @@ The application is developed using the RESTful approach, with Django as the back
 
 Following are some screenshots from the application.
 
-![Home]( ScreenShots\HOME.png "Home Page")
+![Home]( \ScreenShots\HOME.png "Home Page")
 
 <h1 style="text-align: center;"> Home page</h1>
 
-![Explore]( ScreenShots\explore.png "Explore")
+![Explore]( \ScreenShots\explore.png "Explore")
 
 <h1 style="text-align: center;"> Explore page</h1>
 
-![Course]( ScreenShots\COURSE.png "Course")
+![Course]( \ScreenShots\COURSE.png "Course")
 
 <h1 style="text-align: center;"> Course page</h1>
 
-![Forum]( ScreenShots\forum.png "Forum")
+![Forum]( \ScreenShots\forum.png "Forum")
 
 <h1 style="text-align: center;"> Course Forum</h1>
 
-![Careers]( ScreenShots\Careers.png "Careers")
+![Careers]( \ScreenShots\Careers.png "Careers")
 
 <h1 style="text-align: center;"> Careers page</h1>
 
-![Instructors Dashboard]( ScreenShots\InstructorsDashboard.png "Instructors Dashboard")
+![Instructors Dashboard]( \ScreenShots\InstructorsDashboard.png "Instructors Dashboard")
 
 <h1 style="text-align: center;"> Instructors Dashboard</h1>
 
-![Instructor course view]( ScreenShots\InstructorCourseView.png "Instructor course view")
+![Instructor course view]( \ScreenShots\InstructorCourseView.png "Instructor course view")
 
 <h1 style="text-align: center;"> Instructors Course View</h1>
 
-![Students Dashboard]( ScreenShots\StudentDashboard.png "Students Dashboard")
+![Students Dashboard]( \ScreenShots\StudentDashboard.png "Students Dashboard")
 
 <h1 style="text-align: center;"> Students Dashboard</h1>
 
-![Registered Course]( ScreenShots\RegisteredCourse.png "Registered Course")
+![Registered Course]( \ScreenShots\RegisteredCourse.png "Registered Course")
 
 <h1 style="text-align: center;"> Registered Course</h1>
 
-![Lecture]( ScreenShots\LECTURE.png "Lecture")
+![Lecture]( \ScreenShots\LECTURE.png "Lecture")
 
 <h1 style="text-align: center;"> Lecture</h1>
 
